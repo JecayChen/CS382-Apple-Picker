@@ -16,3 +16,5 @@ Hello, this is the first project for CS382: Game Design Using Unity and C#. The 
         - Color light green
     - Created Tree_Trunk
         - Color dark brown
+- Created Prefab/Object Apple
+    - Color bright red

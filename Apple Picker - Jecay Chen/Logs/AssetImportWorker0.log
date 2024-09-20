@@ -343,3 +343,43 @@ Received Import Request.
 Number of updated assets reloaded before import = 0
 Start importing Assets/Mat_Apple.mat using Guid(eb2355fe3aa634631829e73dc17aa5c1) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '340f6a8d45853b55c4586c3c21c7530f') in 0.031974 seconds 
 Number of asset objects unloaded after import = 1
+========================================================================
+Received Import Request.
+  Time since last request: 1152.887896 seconds.
+  path: Assets/New Material.mat
+  artifactKey: Guid(694c1007614c14bd59a3b896b39f70e8) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Number of updated assets reloaded before import = 0
+Start importing Assets/New Material.mat using Guid(694c1007614c14bd59a3b896b39f70e8) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'd0d1a097bf26a027c9c5748476ce8ffa') in 0.017019 seconds 
+Number of asset objects unloaded after import = 1
+========================================================================
+Received Import Request.
+  Time since last request: 15.095103 seconds.
+  path: Assets/Mat_Basket.mat
+  artifactKey: Guid(694c1007614c14bd59a3b896b39f70e8) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Number of updated assets reloaded before import = 0
+Start importing Assets/Mat_Basket.mat using Guid(694c1007614c14bd59a3b896b39f70e8) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '5fa5c2e9ad993cee89739f919cb58caf') in 0.008501 seconds 
+Number of asset objects unloaded after import = 1
+========================================================================
+Received Import Request.
+  Time since last request: 333.617987 seconds.
+  path: Assets/Basket.prefab
+  artifactKey: Guid(5f2a29c0f36164de8a5d5e755827494e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Number of updated assets reloaded before import = 0
+Start importing Assets/Basket.prefab using Guid(5f2a29c0f36164de8a5d5e755827494e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '38dd3eff83a9640a4d3a08946dfd4a2c') in 0.031290 seconds 
+Number of asset objects unloaded after import = 9
+========================================================================
+Received Import Request.
+  Time since last request: 5.444526 seconds.
+  path: Assets/Basket.prefab
+  artifactKey: Guid(5f2a29c0f36164de8a5d5e755827494e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Number of updated assets reloaded before import = 0
+Start importing Assets/Basket.prefab using Guid(5f2a29c0f36164de8a5d5e755827494e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '454f64ea5906fa2dfd09d34c02107667') in 0.088192 seconds 
+Number of asset objects unloaded after import = 9
+========================================================================
+Received Import Request.
+  Time since last request: 829.835738 seconds.
+  path: Assets/Basket.prefab
+  artifactKey: Guid(5f2a29c0f36164de8a5d5e755827494e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Number of updated assets reloaded before import = 0
+Start importing Assets/Basket.prefab using Guid(5f2a29c0f36164de8a5d5e755827494e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '766394ee86c9e6c0b975ebff3fac54ef') in 0.029802 seconds 
+Number of asset objects unloaded after import = 9

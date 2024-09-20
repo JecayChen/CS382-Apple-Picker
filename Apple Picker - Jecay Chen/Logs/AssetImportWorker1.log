@@ -255,3 +255,11 @@ Received Import Request.
 Number of updated assets reloaded before import = 0
 Start importing Assets/Mat_Apple.mat using Guid(eb2355fe3aa634631829e73dc17aa5c1) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '0a1950b13998859d68c76495a047a35f') in 0.086187 seconds 
 Number of asset objects unloaded after import = 1
+========================================================================
+Received Import Request.
+  Time since last request: 1554.723442 seconds.
+  path: Assets/Mat_Basket.mat
+  artifactKey: Guid(694c1007614c14bd59a3b896b39f70e8) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Number of updated assets reloaded before import = 0
+Start importing Assets/Mat_Basket.mat using Guid(694c1007614c14bd59a3b896b39f70e8) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '21e9cb15bee14ab346e96111a3e9f275') in 0.087842 seconds 
+Number of asset objects unloaded after import = 1

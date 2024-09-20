@@ -242,3 +242,104 @@ Received Import Request.
 Number of updated assets reloaded before import = 0
 Start importing Assets/Tree_AppleTree.prefab using Guid(d5b194edf8329470c9e3c7d3ff23f2d6) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '912612836034c638596893d6a14bb662') in 0.009779 seconds 
 Number of asset objects unloaded after import = 17
+========================================================================
+Received Import Request.
+  Time since last request: 1517.767196 seconds.
+  path: Assets/Mat_Apple.mat
+  artifactKey: Guid(eb2355fe3aa634631829e73dc17aa5c1) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Number of updated assets reloaded before import = 0
+Start importing Assets/Mat_Apple.mat using Guid(eb2355fe3aa634631829e73dc17aa5c1) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '6d47d889e89c05af5680e95bc0a2b2d0') in 0.031640 seconds 
+Number of asset objects unloaded after import = 1
+========================================================================
+Received Prepare
+Registering precompiled user dll's ...
+Registered in 0.001395 seconds.
+Begin MonoManager ReloadAssembly
+Thread 0x1720c7000 may have been prematurely finalized
+Native extension for WindowsStandalone target not found
+Native extension for OSXStandalone target not found
+Native extension for WebGL target not found
+Refreshing native plugins compatible for Editor in 0.43 ms, found 2 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+[Package Manager] Server::EnsureServerProcessIsRunning -- launch failed, reason: Unity was launched with the -noUpm command-line argument
+[Package Manager] Cannot connect to Unity Package Manager local server
+Mono: successfully reloaded assembly
+- Completed reload, in  0.918 seconds
+Domain Reload Profiling:
+	ReloadAssembly (919ms)
+		BeginReloadAssembly (115ms)
+			ExecutionOrderSort (0ms)
+			DisableScriptedObjects (3ms)
+			BackupInstance (0ms)
+			ReleaseScriptingObjects (0ms)
+			CreateAndSetChildDomain (57ms)
+		EndReloadAssembly (752ms)
+			LoadAssemblies (42ms)
+			RebuildTransferFunctionScriptingTraits (0ms)
+			SetupTypeCache (170ms)
+			ReleaseScriptCaches (1ms)
+			RebuildScriptCaches (27ms)
+			SetupLoadedEditorAssemblies (493ms)
+				LogAssemblyErrors (0ms)
+				InitializePlatformSupportModulesInManaged (4ms)
+				SetLoadedEditorAssemblies (0ms)
+				RefreshPlugins (0ms)
+				BeforeProcessingInitializeOnLoad (30ms)
+				ProcessInitializeOnLoadAttributes (446ms)
+				ProcessInitializeOnLoadMethodAttributes (12ms)
+				AfterProcessingInitializeOnLoad (1ms)
+				EditorAssembliesLoaded (0ms)
+			ExecutionOrderSort2 (0ms)
+			AwakeInstancesAfterBackupRestoration (2ms)
+Platform modules already initialized, skipping
+Refreshing native plugins compatible for Editor in 0.28 ms, found 2 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 3060 Unused Serialized files (Serialized files now loaded: 0)
+Unloading 18 unused Assets / (21.9 KB). Loaded Objects now: 3573.
+Memory consumption went from 114.0 MB to 114.0 MB.
+Total: 2.095625 ms (FindLiveObjects: 0.118791 ms CreateObjectMapping: 0.053125 ms MarkObjects: 1.908125 ms  DeleteObjects: 0.015167 ms)
+
+AssetImportParameters requested are different than current active one (requested -> active):
+  custom:video-decoder-ogg-theora: a1e56fd34408186e4bbccfd4996cb3dc -> 
+  custom:container-muxer-webm: aa71ff27fc2769a1b78a27578f13a17b -> 
+  custom:container-demuxer-webm: 4f35f7cbe854078d1ac9338744f61a02 -> 
+  custom:video-encoder-webm-vp8: eb34c28f22e8b96e1ab97ce403110664 -> 
+  custom:framework-osx-AVFoundation: e770b220cccbd017edd2c1fefb359320 -> 
+  custom:CustomObjectIndexerAttribute: bc11b3a6c3213fcdd17b65e7da85e133 -> 
+  custom:audio-encoder-webm-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+  custom:SearchIndexIgnoredProperties: e643bd26f0fe6173181afceb89e7c659 -> 
+  custom:container-demuxer-ogg: 62fdf1f143b41e24485cea50d1cbac27 -> 
+  custom:video-decoder-webm-vp8: 9c59270c3fd7afecdb556c50c9e8de78 -> 
+  custom:audio-decoder-ogg-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+========================================================================
+Received Import Request.
+  Time since last request: 347.036493 seconds.
+  path: ProjectSettings/TagManager.asset
+  artifactKey: Guid(00000000000000003000000000000000) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Number of updated assets reloaded before import = 0
+Start importing ProjectSettings/TagManager.asset using Guid(00000000000000003000000000000000) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '5f74b9f0782f3ffe8a654b2b60a9f33c') in 0.130335 seconds 
+Number of asset objects unloaded after import = 0
+========================================================================
+Received Import Request.
+  Time since last request: 142.150260 seconds.
+  path: Assets/Apple.prefab
+  artifactKey: Guid(1e9a843bd9e6049c78f8f7f7e41d18bb) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Number of updated assets reloaded before import = 0
+Start importing Assets/Apple.prefab using Guid(1e9a843bd9e6049c78f8f7f7e41d18bb) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'a2b95be82aabbf19bbcd48e08c427c3c') in 0.062880 seconds 
+Number of asset objects unloaded after import = 9
+========================================================================
+Received Import Request.
+  Time since last request: 6.717705 seconds.
+  path: Assets/Apple.prefab
+  artifactKey: Guid(1e9a843bd9e6049c78f8f7f7e41d18bb) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Number of updated assets reloaded before import = 0
+Start importing Assets/Apple.prefab using Guid(1e9a843bd9e6049c78f8f7f7e41d18bb) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '20a4b9cb09c432e2e79c556ab09a5387') in 0.007435 seconds 
+Number of asset objects unloaded after import = 9
+========================================================================
+Received Import Request.
+  Time since last request: 47.651226 seconds.
+  path: Assets/Mat_Apple.mat
+  artifactKey: Guid(eb2355fe3aa634631829e73dc17aa5c1) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Number of updated assets reloaded before import = 0
+Start importing Assets/Mat_Apple.mat using Guid(eb2355fe3aa634631829e73dc17aa5c1) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '340f6a8d45853b55c4586c3c21c7530f') in 0.031974 seconds 
+Number of asset objects unloaded after import = 1

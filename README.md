@@ -19,3 +19,4 @@ Hello, this is the first project for CS382: Game Design Using Unity and C#. The 
 - Created Prefab/Object Apple
     - Color bright red
 - Created Prefab/Object Basket
+    - Color dull yellow

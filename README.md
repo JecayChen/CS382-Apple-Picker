@@ -20,3 +20,4 @@ Hello, this is the first project for CS382: Game Design Using Unity and C#. The 
     - Color bright red
 - Created Prefab/Object Basket
     - Color dull yellow
+- Updated Camera settings and set aspect ration to 1920x1080

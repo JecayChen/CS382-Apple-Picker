@@ -312,6 +312,10 @@ PrefabInstance:
       propertyPath: m_Name
       value: Tree_AppleTree
       objectReference: {fileID: 0}
+    - target: {fileID: 8489903388639579926, guid: d5b194edf8329470c9e3c7d3ff23f2d6, type: 3}
+      propertyPath: m_IsKinematic
+      value: 1
+      objectReference: {fileID: 0}
     - target: {fileID: 8489903388639579927, guid: d5b194edf8329470c9e3c7d3ff23f2d6, type: 3}
       propertyPath: m_RootOrder
       value: 2
@@ -322,7 +326,7 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 8489903388639579927, guid: d5b194edf8329470c9e3c7d3ff23f2d6, type: 3}
       propertyPath: m_LocalPosition.y
-      value: 10
+      value: 12
       objectReference: {fileID: 0}
     - target: {fileID: 8489903388639579927, guid: d5b194edf8329470c9e3c7d3ff23f2d6, type: 3}
       propertyPath: m_LocalPosition.z

@@ -10,3 +10,9 @@ Hello, this is the first project for CS382: Game Design Using Unity and C#. The 
 
 - Start of the Apple Picker project
 - Created README
+- Created Unity Project Apple Picker
+- Created Prefab/Object Tree
+    - Created Tree_Leaves
+        - Color light green
+    - Created Tree_Trunk
+        - Color dark brown

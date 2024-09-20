@@ -21,3 +21,5 @@ Hello, this is the first project for CS382: Game Design Using Unity and C#. The 
 - Created Prefab/Object Basket
     - Color dull yellow
 - Updated Camera settings and set aspect ration to 1920x1080
+- Created script for AppleTree object to move and drop apples
+- Created script for Apple object to delete itself after falling out of bounds

@@ -44,7 +44,7 @@ public class Basket : MonoBehaviour{
             Destroy(collidedWith);
 
             // Get refererence to ApplePicker component in Main Camera
-            _ApplePicker apScript = Camera.main.GetComponent<_ApplePicker>();
+            ApplePicker apScript = Camera.main.GetComponent<ApplePicker>();
 
             // Call public AppleMissed() of apScript
             apScript.AppleMissed();

@@ -4,6 +4,25 @@ Hello, this is the first project for CS382: Game Design Using Unity and C#. The 
 
 ## Current Objectives and Issues
 
+- Create a "Start Screen"
+    - First Screen Player sees
+    - Start button
+- Modify UI_Score to include a round number at center top
+    - 4 Rounds Max
+    - Round counter by power of 10
+        - Round 1: 0 - <1,000; need to collect 20; Apples worth 50 points
+        - Round 2: 1,000 - <10,000; need to collect 45; Apples worth 200 Points
+        - Round 3: 10,000 - <100,000; need to collect 100; Apples worth 900 Points
+        - Round 4: 100,000+; Apples worth 1,000
+    - Round increase results in:
+        - Decrease in Drop Delay: (0.5, 0.75), (0.4, 0.6), (0.3, 0.45), (0.2, 0.3)
+        - Increase in Points: 50, 200, 900, 1000
+        - Increase in BadApple chance: .05, .07, .09, .1
+        - Decrease in Basket Width: 4, 3.33, 2.67, 2
+- Create a "Game Over Screen"
+    - Restart button
+    - Start Screen button
+
 ## Changelog Quicklook
 
 ### 22 September, 2024
@@ -14,6 +33,11 @@ Hello, this is the first project for CS382: Game Design Using Unity and C#. The 
 - Modified scripts for counting Basket objects as lives
 - Modified scripts for reseting game should Basket objects (lives) run out
 - Created and Modified scripts for HighScore and keeping highscore between play sessions
+- Modified Apple object to GoodApple
+- Created BadApple object
+    - Color Purple
+    - Collecting results in failing to catch GoodApple object
+
 
 ### 20 September, 2024
 

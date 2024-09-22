@@ -16,9 +16,6 @@ Hello, this is the first project for CS382: Game Design Using Unity and C#. The 
         - Increase in Points: 50, 200, 900, 1000
         - Increase in BadApple chance: .05, .07, .09, .1
         - Decrease in Basket Width: 4, 3.33, 2.67, 2
-- Create a "Game Over Screen"
-    - Restart button
-    - Start Screen button
 
 ## Changelog Quicklook
 
@@ -37,6 +34,9 @@ Hello, this is the first project for CS382: Game Design Using Unity and C#. The 
 - Created a "Start Screen"
     - First Screen Player sees
     - Start button redirects to Scene "_Scene_0"
+- Create a "Game Over Screen"
+    - Restart button redirects to Scene "_Scene_0"
+    - Start Screen button reedirects to Scene "_Scene_1"
 
 ### 20 September, 2024
 

@@ -342,10 +342,11 @@
 -r:"Library/Bee/artifacts/200b0aE.dag/Unity.VSCode.Editor.ref.dll"
 -r:"Library/Bee/artifacts/200b0aE.dag/UnityEditor.UI.ref.dll"
 -r:"Library/Bee/artifacts/200b0aE.dag/UnityEngine.UI.ref.dll"
-"Assets/Apple/Script/Apple.cs"
 "Assets/ApplePicker.cs"
-"Assets/Basket/Script/Basket.cs"
-"Assets/Tree/Script/AppleTree.cs"
+"Assets/Object_Apple/Script/Apple.cs"
+"Assets/Object_Basket/Script/Basket.cs"
+"Assets/Object_Tree/Script/AppleTree.cs"
+"Assets/UI_Score/Script/ScoreCounter.cs"
 -langversion:9.0
 
 /deterministic

@@ -6,6 +6,14 @@ Hello, this is the first project for CS382: Game Design Using Unity and C#. The 
 
 ## Changelog Quicklook
 
+### 22 September, 2024
+
+- Created Score UI
+- Modified scripts for score keeping
+- Modified scripts to reset Apple objects after failing to catch
+- Modified scripts for counting Basket objects as lives
+- Modified scripts for reseting game should Basket objects (lives) run out
+
 ### 20 September, 2024
 
 - Start of the Apple Picker project

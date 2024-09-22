@@ -738,7 +738,7 @@ GameObject:
   - component: {fileID: 2003238696}
   - component: {fileID: 2003238695}
   - component: {fileID: 2003238694}
-  - component: {fileID: 2003238693}
+  - component: {fileID: 2003238697}
   m_Layer: 5
   m_Name: StartButton
   m_TagString: Untagged
@@ -767,18 +767,6 @@ RectTransform:
   m_AnchoredPosition: {x: 0, y: -200}
   m_SizeDelta: {x: 500, y: 100}
   m_Pivot: {x: 0.5, y: 0.5}
---- !u!114 &2003238693
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 2003238691}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 08b9020aa56194713af5fb235e4375f1, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
 --- !u!114 &2003238694
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -823,8 +811,8 @@ MonoBehaviour:
   m_OnClick:
     m_PersistentCalls:
       m_Calls:
-      - m_Target: {fileID: 2003238693}
-        m_TargetAssemblyTypeName: StartButton, Assembly-CSharp
+      - m_Target: {fileID: 2003238697}
+        m_TargetAssemblyTypeName: SceneRedirect, Assembly-CSharp
         m_MethodName: SwitchScene
         m_Mode: 1
         m_Arguments:
@@ -873,3 +861,16 @@ CanvasRenderer:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 2003238691}
   m_CullTransparentMesh: 1
+--- !u!114 &2003238697
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 2003238691}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 08b9020aa56194713af5fb235e4375f1, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  sceneName: _Scene_0

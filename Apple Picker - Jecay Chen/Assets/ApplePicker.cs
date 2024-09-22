@@ -45,7 +45,7 @@ public class ApplePicker : MonoBehaviour{
 
         // If no Basket objects left (lives), restart game
         if(basketList.Count == 0){
-            SceneManager.LoadScene("_Scene_0");
+            SceneManager.LoadScene("_Scene_2");
         }
     }
 }

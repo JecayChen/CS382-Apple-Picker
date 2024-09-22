@@ -4,9 +4,6 @@ Hello, this is the first project for CS382: Game Design Using Unity and C#. The 
 
 ## Current Objectives and Issues
 
-- Create a "Start Screen"
-    - First Screen Player sees
-    - Start button
 - Modify UI_Score to include a round number at center top
     - 4 Rounds Max
     - Round counter by power of 10
@@ -37,7 +34,9 @@ Hello, this is the first project for CS382: Game Design Using Unity and C#. The 
 - Created BadApple object
     - Color Purple
     - Collecting results in failing to catch GoodApple object
-
+- Created a "Start Screen"
+    - First Screen Player sees
+    - Start button redirects to Scene "_Scene_0"
 
 ### 20 September, 2024
 

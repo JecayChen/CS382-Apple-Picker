@@ -6,7 +6,12 @@ public class AppleTree : MonoBehaviour{
     [Header("Inscribed")]
 
     // Prefab for tree to instantiate Apples object
-    public GameObject applePrefab;
+    public GameObject goodApplePrefab;
+    public GameObject badApplePrefab;
+
+    // Chance of type of apple falling
+
+    public float badAppleChance = .01f;
 
     // Speed of movement for the AppleTree object (left and right)
     public float speed = 1f;
@@ -18,7 +23,8 @@ public class AppleTree : MonoBehaviour{
     public float changeDirChance = .1f;
 
     // Seconds between instantiation of object Apple
-    public float appleDropDelay = 1f;
+    public float appleDelayMin = 1f;
+    public float appleDelayMax = 1f;
 
     void Start(){
         // Start dropping object Apple
@@ -48,7 +54,12 @@ public class AppleTree : MonoBehaviour{
     }
 
     void DropApple(){
-        GameObject apple = Instantiate<GameObject>(applePrefab);
+        GameObject apple;
+        if(Random.value <= badAppleChance){
+            apple = Instantiate<GameObject>(badApplePrefab);
+        }else{
+            apple = Instantiate<GameObject>(goodApplePrefab);
+        }
         Vector3 pos = transform.position;
 
         if(Random.value >= .5){
@@ -59,6 +70,6 @@ public class AppleTree : MonoBehaviour{
             apple.transform.position = pos;
         }
         apple.transform.position = transform.position;
-        Invoke("DropApple", appleDropDelay);
+        Invoke("DropApple", Random.Range(appleDelayMin, appleDelayMax));
     }
 }

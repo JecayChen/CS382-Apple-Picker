@@ -33,13 +33,21 @@ public class Basket : MonoBehaviour{
 
         // Name/Type of object detection
         GameObject collidedWith = coll.gameObject;
-        // Delete object if Apple
-        if(collidedWith.CompareTag("Apple")){
+        // Delete object if GoodApple
+        if(collidedWith.CompareTag("GoodApple")){
             Destroy(collidedWith);
 
             // Increase score
             scoreCounter.score += 100; 
             HighScore.TRY_SET_HIGH_SCORE(scoreCounter.score);
+        }else if(collidedWith.CompareTag("BadApple")){ // Check for BadApple
+            Destroy(collidedWith);
+
+            // Get refererence to ApplePicker component in Main Camera
+            _ApplePicker apScript = Camera.main.GetComponent<_ApplePicker>();
+
+            // Call public AppleMissed() of apScript
+            apScript.AppleMissed();
         }
     }
 }

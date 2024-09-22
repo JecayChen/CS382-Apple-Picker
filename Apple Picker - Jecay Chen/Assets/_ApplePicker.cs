@@ -3,7 +3,7 @@ using System.Collections.Generic;
 using UnityEngine;
 using UnityEngine.SceneManagement;
 
-public class ApplePicker : MonoBehaviour{
+public class _ApplePicker : MonoBehaviour{
     [Header("Inscribed")]
     public GameObject basketPrefab;
     public int numBaskets = 3;
@@ -24,7 +24,11 @@ public class ApplePicker : MonoBehaviour{
 
     public void AppleMissed(){
         // Destroy all falling Apple objects
-        GameObject[] appleArray = GameObject.FindGameObjectsWithTag("Apple");
+        GameObject[] appleArray = GameObject.FindGameObjectsWithTag("GoodApple");
+        foreach(GameObject tempGo in appleArray){
+            Destroy(tempGo);
+        }
+        appleArray = GameObject.FindGameObjectsWithTag("BadApple");
         foreach(GameObject tempGo in appleArray){
             Destroy(tempGo);
         }

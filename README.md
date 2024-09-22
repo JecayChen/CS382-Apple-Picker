@@ -13,6 +13,7 @@ Hello, this is the first project for CS382: Game Design Using Unity and C#. The 
 - Modified scripts to reset Apple objects after failing to catch
 - Modified scripts for counting Basket objects as lives
 - Modified scripts for reseting game should Basket objects (lives) run out
+- Created and Modified scripts for HighScore and keeping highscore between play sessions
 
 ### 20 September, 2024
 

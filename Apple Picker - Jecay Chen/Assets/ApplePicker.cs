@@ -11,6 +11,8 @@ public class ApplePicker : MonoBehaviour{
     public float basketSpacingY = 2f;
     public List<GameObject> basketList;
 
+    public ScoreCounter scoreCounter; //Creates a blank reference to ScoreCounter script;
+
     void Start(){
         basketList = new List<GameObject>();
         // Idea: Summon N number of baskets on top of each other as lives at game start
@@ -21,6 +23,11 @@ public class ApplePicker : MonoBehaviour{
             tBasketGO.transform.position = pos; 
             basketList.Add(tBasketGO); // Tracks/Lists Basket objects
         }
+
+        // Find GameObject ScoreCounter in Scene Hierarchy
+        GameObject scoreGO = GameObject.Find("ScoreCounter");
+        // Get ScoreCounter script component of scoreGo
+        scoreCounter = scoreGO.GetComponent<ScoreCounter>();
     }
 
     public void AppleMissed(){
@@ -43,8 +50,10 @@ public class ApplePicker : MonoBehaviour{
         basketList.RemoveAt(basketIndex);
         Destroy(basketGO);
 
-        // If no Basket objects left (lives), restart game
+        // If no Basket objects left (lives), game over
         if(basketList.Count == 0){
+            PlayerPrefs.SetInt("Score", scoreCounter.score);
+            ScoreCounter.gameOver = true;
             SceneManager.LoadScene("_Scene_2");
         }
     }

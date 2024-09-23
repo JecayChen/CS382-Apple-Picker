@@ -8,7 +8,7 @@ public class Basket : MonoBehaviour{
     public AppleTree appleTreeComp; //Creates a blank reference to AppleTree script;
     public RoundCounter roundCounter; //Creates a blank reference to AppleTree script;
 
-    public static int pointWorth = 50;
+    public static int _POINT_WORTH = 50;
 
     void Start(){
         // Find GameObject ScoreCounter in Scene Hierarchy
@@ -23,7 +23,7 @@ public class Basket : MonoBehaviour{
 
         // Find GameObject RoundCounter in Scene Hierarchy
         GameObject roundGO = GameObject.Find("RoundCounter");
-        // Get ScoreCounter script component of scoreGo
+        // Get RoundCounter script component of roundGo
         roundCounter = roundGO.GetComponent<RoundCounter>();
     }
 
@@ -53,7 +53,7 @@ public class Basket : MonoBehaviour{
             Destroy(collidedWith);
 
             // Increase score
-            scoreCounter.score += pointWorth;
+            scoreCounter.score += _POINT_WORTH;
             HighScore.TRY_SET_HIGH_SCORE(scoreCounter.score);
         }else if(collidedWith.CompareTag("BadApple")){ // Check for BadApple
             Destroy(collidedWith);
@@ -67,7 +67,7 @@ public class Basket : MonoBehaviour{
         
         switch(scoreCounter.score){
             case 1000:
-                pointWorth = 200;
+                _POINT_WORTH = 200;
                 appleTreeComp.speed = 30f;
                 appleTreeComp.appleDelayMin = .4f;
                 appleTreeComp.appleDelayMax = .6f;
@@ -77,7 +77,7 @@ public class Basket : MonoBehaviour{
                 break;
 
             case 10000:
-                pointWorth = 900;
+                _POINT_WORTH = 900;
                 appleTreeComp.speed = 40f;
                 appleTreeComp.appleDelayMin = .3f;
                 appleTreeComp.appleDelayMax = .45f;
@@ -87,7 +87,7 @@ public class Basket : MonoBehaviour{
                 break;
             
             case 100000:
-                pointWorth = 1000;
+                _POINT_WORTH = 1000;
                 appleTreeComp.speed = 50f;
                 appleTreeComp.appleDelayMin = .2f;
                 appleTreeComp.appleDelayMax = .3f;

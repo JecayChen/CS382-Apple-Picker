@@ -17,7 +17,7 @@ public class Apple : MonoBehaviour{
             if(this.gameObject.CompareTag("BadApple")){
 
             }else if(this.gameObject.CompareTag("GoodApple")){
-                apScript.AppleMissed();
+                //apScript.AppleMissed();
             }
         }
         

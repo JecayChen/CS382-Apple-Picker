@@ -595,7 +595,7 @@ GameObject:
   - component: {fileID: 1294361598}
   - component: {fileID: 1294361601}
   - component: {fileID: 1294361600}
-  - component: {fileID: 1294361599}
+  - component: {fileID: 1294361602}
   m_Layer: 5
   m_Name: RoundCounter
   m_TagString: Untagged
@@ -623,19 +623,6 @@ RectTransform:
   m_AnchoredPosition: {x: 0, y: -9}
   m_SizeDelta: {x: 348, y: 48}
   m_Pivot: {x: 0.5, y: 1}
---- !u!114 &1294361599
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 1294361597}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 49b9a7ce518f242dc96a0f845e481f45, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  score: 0
 --- !u!114 &1294361600
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -678,6 +665,19 @@ CanvasRenderer:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 1294361597}
   m_CullTransparentMesh: 1
+--- !u!114 &1294361602
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1294361597}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: c98d0e39e7d9d4651adddb7859fcebdd, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  round: 1
 --- !u!1 &1567962377
 GameObject:
   m_ObjectHideFlags: 0
@@ -780,20 +780,20 @@ PrefabInstance:
     m_TransformParent: {fileID: 0}
     m_Modifications:
     - target: {fileID: -2434826746416915880, guid: d5b194edf8329470c9e3c7d3ff23f2d6, type: 3}
+      propertyPath: speed
+      value: 20
+      objectReference: {fileID: 0}
+    - target: {fileID: -2434826746416915880, guid: d5b194edf8329470c9e3c7d3ff23f2d6, type: 3}
       propertyPath: appleDelayMax
-      value: 0.2
+      value: 0.75
       objectReference: {fileID: 0}
     - target: {fileID: -2434826746416915880, guid: d5b194edf8329470c9e3c7d3ff23f2d6, type: 3}
       propertyPath: appleDelayMin
-      value: 0.2
+      value: 0.5
       objectReference: {fileID: 0}
     - target: {fileID: -2434826746416915880, guid: d5b194edf8329470c9e3c7d3ff23f2d6, type: 3}
       propertyPath: appleDropDelay
       value: 1
-      objectReference: {fileID: 0}
-    - target: {fileID: -2434826746416915880, guid: d5b194edf8329470c9e3c7d3ff23f2d6, type: 3}
-      propertyPath: badAppleChance
-      value: 0.05
       objectReference: {fileID: 0}
     - target: {fileID: 8489903388639579924, guid: d5b194edf8329470c9e3c7d3ff23f2d6, type: 3}
       propertyPath: m_Name

@@ -347,6 +347,7 @@
 "Assets/Object_Basket/Script/Basket.cs"
 "Assets/Object_Tree/Script/AppleTree.cs"
 "Assets/UI_Score/Script/HighScore.cs"
+"Assets/UI_Score/Script/RoundCounter.cs"
 "Assets/UI_Score/Script/SceneRedirect.cs"
 "Assets/UI_Score/Script/ScoreCounter.cs"
 -langversion:9.0

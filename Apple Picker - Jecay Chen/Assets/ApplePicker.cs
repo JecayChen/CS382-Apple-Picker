@@ -48,4 +48,11 @@ public class ApplePicker : MonoBehaviour{
             SceneManager.LoadScene("_Scene_2");
         }
     }
+
+    // Resizes each basket localscale.x to scale; called in Basket script
+    public void changeScale(float scale){
+        for(int i=0; i < basketList.Count; i++){
+            basketList[i].transform.localScale = new Vector3(scale, 1, 4);
+        }
+    }
 }

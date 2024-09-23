@@ -4,13 +4,27 @@ using UnityEngine;
 
 public class Basket : MonoBehaviour{
 
-    public ScoreCounter scoreCounter;
+    public ScoreCounter scoreCounter; //Creates a blank reference to ScoreCounter script;
+    public AppleTree appleTreeComp; //Creates a blank reference to AppleTree script;
+    public RoundCounter roundCounter; //Creates a blank reference to AppleTree script;
+
+    public static int pointWorth = 50;
+
     void Start(){
         // Find GameObject ScoreCounter in Scene Hierarchy
         GameObject scoreGO = GameObject.Find("ScoreCounter");
-
         // Get ScoreCounter script component of scoreGo
         scoreCounter = scoreGO.GetComponent<ScoreCounter>();
+
+        // Find GameObject AppleTree in Scene Hierachy
+        GameObject appleTreeGO = GameObject.Find("Tree_AppleTree");
+        // Get Apple Tree script component of AppleTree
+        appleTreeComp = appleTreeGO.GetComponent<AppleTree>();
+
+        // Find GameObject RoundCounter in Scene Hierarchy
+        GameObject roundGO = GameObject.Find("RoundCounter");
+        // Get ScoreCounter script component of scoreGo
+        roundCounter = roundGO.GetComponent<RoundCounter>();
     }
 
     void Update(){
@@ -30,6 +44,7 @@ public class Basket : MonoBehaviour{
     }
 
     void OnCollisionEnter(Collision coll){
+        ApplePicker apScript = Camera.main.GetComponent<ApplePicker>();
 
         // Name/Type of object detection
         GameObject collidedWith = coll.gameObject;
@@ -38,16 +53,49 @@ public class Basket : MonoBehaviour{
             Destroy(collidedWith);
 
             // Increase score
-            scoreCounter.score += 100; 
+            scoreCounter.score += pointWorth;
             HighScore.TRY_SET_HIGH_SCORE(scoreCounter.score);
         }else if(collidedWith.CompareTag("BadApple")){ // Check for BadApple
             Destroy(collidedWith);
 
             // Get refererence to ApplePicker component in Main Camera
-            ApplePicker apScript = Camera.main.GetComponent<ApplePicker>();
+            //ApplePicker apScript = Camera.main.GetComponent<ApplePicker>();
 
             // Call public AppleMissed() of apScript
-            apScript.AppleMissed();
+            //apScript.AppleMissed();
         }
+        
+        switch(scoreCounter.score){
+            case 1000:
+                pointWorth = 200;
+                appleTreeComp.speed = 30f;
+                appleTreeComp.appleDelayMin = .4f;
+                appleTreeComp.appleDelayMax = .6f;
+                appleTreeComp.badAppleChance = .07f;
+                apScript.changeScale(3.33f);
+                roundCounter.round = 2;
+                break;
+
+            case 10000:
+                pointWorth = 900;
+                appleTreeComp.speed = 40f;
+                appleTreeComp.appleDelayMin = .3f;
+                appleTreeComp.appleDelayMax = .45f;
+                appleTreeComp.badAppleChance = .09f;
+                apScript.changeScale(2.67f);
+                roundCounter.round = 3;
+                break;
+            
+            case 100000:
+                pointWorth = 1000;
+                appleTreeComp.speed = 50f;
+                appleTreeComp.appleDelayMin = .2f;
+                appleTreeComp.appleDelayMax = .3f;
+                appleTreeComp.badAppleChance = .1f;
+                apScript.changeScale(2f);
+                roundCounter.round = 4;
+                break;
+        }
+        
     }
 }

@@ -8,23 +8,23 @@ Hello, this is the first project for CS382: Game Design Using Unity and C#. The 
 
 ### 22 September, 2024
 
-- ADDED Score UI
-- MODIFIED scripts for score keeping
-- MODIFIED scripts to reset Apple objects after failing to catch
-- MODIFIED scripts for counting Basket objects as lives
-- MODIFIED scripts for reseting game should Basket objects (lives) run out
-- ADDED and Modified scripts for HighScore and keeping highscore between play sessions
-- MODIFIED Apple object to GoodApple
-- ADDED BadApple object
+- Added: Score UI
+- Modified: scripts for score keeping
+- Modified: scripts to reset Apple objects after failing to catch
+- Modified: scripts for counting Basket objects as lives
+- Modified: scripts for reseting game should Basket objects (lives) run out
+- Added: and Modified scripts for HighScore and keeping highscore between play sessions
+- Modified: Apple object to GoodApple
+- Added: BadApple object
     - Color Purple
     - Collecting results in failing to catch GoodApple object
-- ADDED a "Start Screen"
+- Added: a "Start Screen"
     - First Screen Player sees
     - Start button redirects to Scene "_Scene_0"
-- ADDED a "Game Over Screen"
+- Added: a "Game Over Screen"
     - Restart button redirects to Scene "_Scene_0"
     - Start Screen button reedirects to Scene "_Scene_1"
-- MODIFIED UI_Score to include a round number at center top
+- Modified: UI_Score to include a round number at center top
     - 4 Rounds Max
     - Round counter by power of 10
         - Round 1: 0 - <1,000; need to collect 20; Apples worth 50 points
@@ -37,22 +37,22 @@ Hello, this is the first project for CS382: Game Design Using Unity and C#. The 
         - Increase in BadApple chance: .05, .07, .09, .1
         - Decrease in Basket Width: 4, 3.33, 2.67, 2
         - Increase in Speed: 20, 30, 40, 50
-- ADDED Final Score Display
+- Added: Final Score Display
 
 ### 20 September, 2024
 
 - CREATION of the Apple Picker project
-- ADDED README
-- ADDED Unity Project Apple Picker
-- ADDED Prefab/Object Tree
-    - ADDED Tree_Leaves
+- Added: README
+- Added: Unity Project Apple Picker
+- Added: Prefab/Object Tree
+    - Added: Tree_Leaves
         - Color light green
-    - ADDED Tree_Trunk
+    - Added: Tree_Trunk
         - Color dark brown
-- ADDED Prefab/Object Apple
+- Added: Prefab/Object Apple
     - Color bright red
-- ADDED Prefab/Object Basket
+- Added: Prefab/Object Basket
     - Color dull yellow
-- MODIFIED Camera settings and set aspect ration to 1920x1080
-- ADDED script for AppleTree object to move and drop apples
-- ADDED script for Apple object to delete itself after falling out of bounds
+- Modified: Camera settings and set aspect ration to 1920x1080
+- Added: script for AppleTree object to move and drop apples
+- Added: script for Apple object to delete itself after falling out of bounds

@@ -25,6 +25,8 @@ public class Basket : MonoBehaviour{
         GameObject roundGO = GameObject.Find("RoundCounter");
         // Get RoundCounter script component of roundGo
         roundCounter = roundGO.GetComponent<RoundCounter>();
+
+        _POINT_WORTH = 50;
     }
 
     void Update(){

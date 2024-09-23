@@ -38,6 +38,7 @@ Hello, this is the first project for CS382: Game Design Using Unity and C#. The 
         - Decrease in Basket Width: 4, 3.33, 2.67, 2
         - Increase in Speed: 20, 30, 40, 50
 - Added: Final Score Display
+- BugFix: The amount of points apples are worth would carry from previous games; Apples are now worth the correct amount of points at each scaling interval
 
 ### 20 September, 2024
 

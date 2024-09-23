@@ -9,22 +9,22 @@ Hello, this is the first project for CS382: Game Design Using Unity and C#. The 
 ### 22 September, 2024
 
 - ADDED Score UI
-- Modified scripts for score keeping
-- Modified scripts to reset Apple objects after failing to catch
-- Modified scripts for counting Basket objects as lives
-- Modified scripts for reseting game should Basket objects (lives) run out
+- MODIFIED scripts for score keeping
+- MODIFIED scripts to reset Apple objects after failing to catch
+- MODIFIED scripts for counting Basket objects as lives
+- MODIFIED scripts for reseting game should Basket objects (lives) run out
 - ADDED and Modified scripts for HighScore and keeping highscore between play sessions
-- Modified Apple object to GoodApple
+- MODIFIED Apple object to GoodApple
 - ADDED BadApple object
     - Color Purple
     - Collecting results in failing to catch GoodApple object
 - ADDED a "Start Screen"
     - First Screen Player sees
     - Start button redirects to Scene "_Scene_0"
-- Create a "Game Over Screen"
+- ADDED a "Game Over Screen"
     - Restart button redirects to Scene "_Scene_0"
     - Start Screen button reedirects to Scene "_Scene_1"
-- Modified UI_Score to include a round number at center top
+- MODIFIED UI_Score to include a round number at center top
     - 4 Rounds Max
     - Round counter by power of 10
         - Round 1: 0 - <1,000; need to collect 20; Apples worth 50 points
@@ -41,7 +41,7 @@ Hello, this is the first project for CS382: Game Design Using Unity and C#. The 
 
 ### 20 September, 2024
 
-- Start of the Apple Picker project
+- CREATION of the Apple Picker project
 - ADDED README
 - ADDED Unity Project Apple Picker
 - ADDED Prefab/Object Tree
@@ -53,6 +53,6 @@ Hello, this is the first project for CS382: Game Design Using Unity and C#. The 
     - Color bright red
 - ADDED Prefab/Object Basket
     - Color dull yellow
-- Updated Camera settings and set aspect ration to 1920x1080
+- MODIFIED Camera settings and set aspect ration to 1920x1080
 - ADDED script for AppleTree object to move and drop apples
 - ADDED script for Apple object to delete itself after falling out of bounds

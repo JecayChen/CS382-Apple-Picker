@@ -62,7 +62,7 @@ public class Basket : MonoBehaviour{
             //ApplePicker apScript = Camera.main.GetComponent<ApplePicker>();
 
             // Call public AppleMissed() of apScript
-            //apScript.AppleMissed();
+            apScript.AppleMissed();
         }
         
         switch(scoreCounter.score){

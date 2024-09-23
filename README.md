@@ -41,7 +41,7 @@ Hello, this is the first project for CS382: Game Design Using Unity and C#. The 
 
 ### 20 September, 2024
 
-- CREATION of the Apple Picker project
+- Start: of the Apple Picker project
 - Added: README
 - Added: Unity Project Apple Picker
 - Added: Prefab/Object Tree
